@@ -51,3 +51,77 @@ a{
     border-radius: 10px;
     transition: .3s;
 }
+.btn_position{
+    position: fixed;
+    top: 20%;
+    left: 0;
+}
+.btn
+{
+    padding: 10px;
+    background-color: rgb(123, 236, 170);
+    border-radius: 10px;
+}
+
+.divMain{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    position: relative;
+}
+.divItem{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    
+
+}
+
+.square
+{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background-color: green;
+    position: relative;
+
+}
+.circle
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.bar
+{
+    width: 30px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    left: -30px;
+}
+
+.image
+{
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    margin: auto;
+    position: relative;
+}
+.image h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

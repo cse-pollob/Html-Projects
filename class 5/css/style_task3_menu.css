@@ -42,11 +42,11 @@ a{
 }
 
 #navbar .menu1 ul li a{
-    color: brown;
+    color: rgb(139, 32, 86);
 }
 
 #navbar .menu1 ul li a:hover{
-    color: red;
+    color: rgb(66, 109, 187);
     background-color: antiquewhite;
     padding: 10px;
     border-radius: 10px;

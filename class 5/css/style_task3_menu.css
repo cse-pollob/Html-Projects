@@ -1,0 +1,78 @@
+/* *universal css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*  padding takes actually from the box */
+}
+
+a{
+    text-decoration: none;/*  underline erase */
+}
+
+.container{
+    width:1120px;
+    margin: auto;
+}
+
+#navbar{
+    background-color: rgb(171, 228, 133);
+    padding: 10px;
+}
+#navbar .logo a img
+{
+    width: 60px;
+    height: 60px;
+}
+.navigration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#navbar .menu1 ul{
+    list-style: none;
+    display: flex;
+}
+
+#navbar .menu1 ul li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar .menu1 ul li a{
+    color: brown;
+}
+
+#navbar .menu1 ul li a:hover{
+    color: red;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+#navbar .menu2 ul{
+    list-style: none;
+    display: flex;
+}
+
+#navbar .menu2 ul li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar .menu2 ul li a{
+    color: brown;
+}
+
+#navbar .menu2 ul li a:hover{
+    color: red;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+

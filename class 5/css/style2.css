@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(181, 194, 194);
+    height: 700px;
+    width: 600px;
+    margin: auto;
+}
+
+.container .header{
+    background-color: rgb(60, 167, 39);
+    width: 100%;
+    height: 200px;
+    
+}
+
+.container .flex_container
+{
+    background-color: rgb(110, 61, 224);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.container .flex_container .item1{
+    background-color: blue;
+    width: 20%;
+}
+.container .flex_container .item2{
+    background-color: rgb(42, 175, 252);
+    width: 70%;
+}
+
+.container .buttom{
+    background-color: rgb(129, 51, 139);
+    width: 100%;
+    height: 100px;
+}

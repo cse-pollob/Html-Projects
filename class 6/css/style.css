@@ -13,3 +13,10 @@
     margin: 20px;
     background-color: beige;
 }
+
+.item_3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}

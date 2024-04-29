@@ -1,0 +1,15 @@
+.box{
+
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.item{
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    background-color: beige;
+}

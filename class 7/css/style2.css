@@ -45,3 +45,25 @@ body{
     font-weight: 500;
     color: black;
 }
+
+.btn_v1{
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn_v2{
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}

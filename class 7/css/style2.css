@@ -24,6 +24,8 @@ body{
 #navbar{
     background-color: aqua;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
 
 #navbar .main{
@@ -39,11 +41,32 @@ body{
 
 #navbar .main ul li{
     padding-right: 20px;
+    position:relative;
 }
 
 #navbar .main ul li a{
     font-weight: 500;
     color: black;
+}
+
+#navbar .main ul li .dropdown{
+    display: block;
+    width: 150px;
+    background-color: azure;
+    position: absolute;
+    top: 35px;
+    transform: scaleX(0);
+}
+
+#navbar .main ul li:hover .dropdown
+{
+    transform: scaleX(1);
+
+}
+
+#navbar .main ul li .dropdown li{
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .btn_v1{
@@ -67,3 +90,4 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
+

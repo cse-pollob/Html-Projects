@@ -26,3 +26,9 @@
     left: 100px;
     bottom: 0;
 }
+.relative_box h1{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}

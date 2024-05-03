@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Ubuntu Sans Mono", monospace;
+}
+
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+#navbar{
+    background-color: aqua;
+    padding: 10px;
+}
+
+#navbar .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .main ul{
+    list-style: none;
+    display: flex;
+}
+
+#navbar .main ul li{
+    padding-right: 20px;
+}
+
+#navbar .main ul li a{
+    font-weight: 500;
+    color: black;
+}

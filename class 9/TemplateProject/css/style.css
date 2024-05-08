@@ -1,0 +1,37 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border-radius: 20px;
+    left: 0;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relative_box{
+    width: 350px;
+    height: 250px;
+    background-color: antiquewhite;
+    position: relative;
+
+}
+.relative_box h1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+
+.ab_box{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    
+}

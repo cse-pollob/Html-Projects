@@ -55,11 +55,15 @@ body{
     background-color: azure;
     position: absolute;
     top: 35px;
+    transition: 0.4s;
+    transition-delay: 0.2s;
+    visibility: hidden;
     transform: scaleX(0);
 }
 
 #navbar .main ul li:hover .dropdown
 {
+    visibility: visible;
     transform: scaleX(1);
 
 }

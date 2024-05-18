@@ -12,11 +12,21 @@
            
         }
         else{
-            $message= "You enter email & pass";
-            mysqli_query($mysql,"INSERT INTO register (email,pass) VALUES ('$email', '$encyptedPass')");
+            
+            $result=mysqli_query($mysql,"SELECT * FROM register WHERE email='$email' AND pass='$encyptedPass'");
+            $row=mysqli_fetch_assoc($result);
+            if(mysqli_num_rows($result)> 0)
+            {
+                $message= "Login Success";
+                //$_SESSION['is_logged']
+            }
+            else{
+                $message="User not exits";
+            }
         }
     }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +38,7 @@
 </head>
 <body>
     <?php include_once('include/header.php'); ?>
+
     <div class="row justify-content-center">
         <div class="col-6">
             <p class="text-danger text-center"><?php echo $message; ?></p>
@@ -49,8 +60,7 @@
 
         </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

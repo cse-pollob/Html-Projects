@@ -14,6 +14,10 @@
 
         <?php if( isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in']==true): ?>
           <li class="nav-item">
+          <a class="nav-link active" href="todo.php">ToDo</a>
+          </li>
+
+          <li class="nav-item">
           <a class="nav-link active" href="logout.php">Logout</a>
           </li>
         <?php else: ?>

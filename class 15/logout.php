@@ -3,6 +3,7 @@
 
     if(isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in']==true)
     {
+        $_SESSION['is_logged_in']==false;
         // remove all session variables
         session_unset();
 

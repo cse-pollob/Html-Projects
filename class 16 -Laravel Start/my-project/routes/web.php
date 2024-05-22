@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
-use App\Models\Post; //ray
+use App\Models\Post; //ray, import Post from Model 
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/posts",[PostController::class,"index"]); //ray
+Route::get("/posts",[PostController::class,"index"]); //ray, index is the function name of PostController

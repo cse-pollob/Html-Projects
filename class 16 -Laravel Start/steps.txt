@@ -58,7 +58,7 @@ proxy no need to set
 	php artisan migrate
 
 15. if we done wrong mirgrate or have to chnage table format 
-	first drop the table 'posts' and in table 'timestamps'  delete the row which is contain 'posts' timestamp 
+	first drop the table 'posts' and in table 'mirgrate'  delete the row which is contain 'posts' timestamp 
 	the agrin migrate (step 14)
 
 16. create a new controller 
@@ -71,3 +71,10 @@ proxy no need to set
 	call PostController function 
 	and goto browser http://127.0.0.1:8000/posts visit 
 
+18. resource ->view -> create folder name "layout"-> create file "master.blade.php"
+
+19. download bootsrap and extact
+	vscode-> public -> make folder 'assets' ->make folder 'css', 'js' & 'image' 
+	also paste bootrap css and js file into that 
+
+20. write html code into masterblade.php

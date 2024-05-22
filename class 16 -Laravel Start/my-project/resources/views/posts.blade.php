@@ -3,7 +3,7 @@
 <!-- import code from layout/master.blade.php code -->
 
 @section('content') <!-- push some code into at yeild('content') of master.blade --> 
-   <div class="container">
+   <div class="container justify-content-center">
         <div class="row">
             <div class="col-6">
                 <table class="table">

@@ -17,24 +17,26 @@
             $title=$row["title"];
             $remarks=$row["remarks"];
         }
+
+        if(isset($_POST['title']))
+        {
+            $title=$_POST['title'];
+            $remarks=$_POST['remarks'];
+
+            if($title=="")
+            {
+            $message="title not be empty";
+            }
+            else{
+                mysqli_query($mysql,"UPDATE todo SET title='$title', remarks='$remarks' WHERE id='$id' ");
+
+                $message="Updated Succesfully";
+            
+            }
+        }
     }
     
-    if(isset($_POST['title']))
-    {
-        $title=$_POST['title'];
-        $remarks=$_POST['remarks'];
-
-        if($title=="")
-        {
-           $message="title not be empty";
-        }
-        else{
-            mysqli_query($mysql,"UPDATE todo SET title='$title', remarks='$remarks' WHERE id='$id' ");
-
-            $message="Updated Succesfully";
-          
-        }
-    }
+    
 
    
 

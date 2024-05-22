@@ -1,0 +1,14 @@
+1. first download and install
+	composer-setup.exe
+	
+during install set php path from xammp
+proxy no need to set
+
+2. read laravel docs making version 10x
+
+3. advantages of laravel is the projects no need to make inside the xammp/htdocs folder, just on xammp server and make any where the project files.
+
+4. open cmd on project folder and put the command on cmd
+	composer create-project laravel/laravel:^10.0 example-projects 
+
+	Required: Download xammp with php8.1 version 

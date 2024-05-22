@@ -8,11 +8,13 @@
     if(isset($_GET['id']))
     {
         $id=$_GET['id'];
+
+        mysqli_query($mysql,"DELETE FROM todo WHERE id='$id' ");
+
+        $message="Deleted Succesfully";
     }
     
-    mysqli_query($mysql,"DELETE FROM todo WHERE id='$id' ");
-
-    $message="Deleted Succesfully";
+    
 
    
 

@@ -57,11 +57,17 @@ proxy no need to set
 14. now migrate in terminal 
 	php artisan migrate
 
-15. if we 
+15. if we done wrong mirgrate or have to chnage table format 
+	first drop the table 'posts' and in table 'timestamps'  delete the row which is contain 'posts' timestamp 
+	the agrin migrate (step 14)
 
 16. create a new controller 
 	php artisan make:controller PostController
 
 	it created in Http->controller->PostController.php
 	open this and also create some function 
+
+17. route->web.php
+	call PostController function 
+	and goto browser http://127.0.0.1:8000/posts visit 
 

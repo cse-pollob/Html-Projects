@@ -9,6 +9,7 @@ class PostController extends Controller
 {
     public function index() //created by ray which is 
     {
-        $posts=Post::all();
+        $posts=Post::all(); // all files from Post
+        dd($posts);// to debug
     }
 }
